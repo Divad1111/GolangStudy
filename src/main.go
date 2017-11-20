@@ -2,12 +2,14 @@ package main
 
 import (
 	//tap "TestArchivePackage"
-	tos "TestOSPackage"
+	tap "TestArchivePackage"
+	//tos "TestOSPackage"
 	"os"
 )
 
 func main() {
-	tos.Test()
+	//tos.Test()
+	tap.Test()
 
 	os.Exit(0)
 }
